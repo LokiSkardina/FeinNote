@@ -1,0 +1,62 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE / AI agents
+.vscode/
+.agents/
+/AGENTS.md
+
+# Third-party binaries bundled locally
+/assets/bin/ffmpeg.exe
+/assets/bin/ffprobe.exe
+
+# Unused font archive
+/assets/fonts/Inter.zip
+
+# Builds
+build/
+dist/
+dist_test_*/
+*.log
+
+# Local models and user data
+models/
+recordings/
+/notes/
+logs/
+test_results/
+.temporary/
+/config.json
+/folders.json
+
+# Secrets
+.env
+.env.*
+*.key
+
+# Personal test files
+russian_test_audio.mp3
+russian_test_text.txt
+test.ogg
+temp_record.wav
+
+# Runtime and temporary files
+/.feinnote.lock
+/config_*.json
+.feinnote_export_*
+/test_feinnote_*/
+
+# Local user exports
+/exports/
+
+# Personal audio and video in project root
+/*.wav
+/*.mp3
+/*.m4a
+/*.ogg
+/*.flac
+/*.mp4
+/*.opus

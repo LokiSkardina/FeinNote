@@ -1,0 +1,1 @@
+# Responsible for: sidebar folder tab switching and presentation
